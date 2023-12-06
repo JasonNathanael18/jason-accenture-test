@@ -3,11 +3,13 @@ import core.Dependencies
 
 internal val androidComposeDependencies = listOf(
     Dependencies.coreKtx,
-    Dependencies.composeMaterial,
+    //Dependencies.composeMaterial,
+    Dependencies.composeMaterial3,
     Dependencies.composeActivity,
     Dependencies.composeUi,
     Dependencies.composePreviewUi,
-    Dependencies.composeNavigation
+    Dependencies.composeNavigation,
+    Dependencies.material
 )
 
 internal val androidxLifeCycleDependencies = listOf(

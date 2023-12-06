@@ -37,3 +37,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "jason_accenture_test"
 include (":app")
+include(":domain")
+include(":feature_list")
+include(":common")
+include(":data")
+include(":di")

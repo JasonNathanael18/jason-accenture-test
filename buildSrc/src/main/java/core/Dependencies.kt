@@ -3,6 +3,8 @@ package core
 internal object Dependencies {
     const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtxVersion}"
     const val composeMaterial = "androidx.compose.material:material:${Versions.materialVersion}"
+    const val composeMaterial3 ="androidx.compose.material3:material3:1.0.0-beta03"
+    const val material ="com.google.android.material:material:1.8.0-alpha01"
     const val composeActivity = "androidx.activity:activity-compose:${Versions.activityComposeVersion}"
     const val composeUi = "androidx.compose.ui:ui:${Versions.composeVersion}"
     const val composeNavigation = "androidx.navigation:navigation-compose:${Versions.composeNavigationVersion}"

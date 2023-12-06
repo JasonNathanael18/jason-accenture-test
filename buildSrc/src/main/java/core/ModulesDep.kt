@@ -8,7 +8,7 @@ object ModulesDep {
     const val entity = ":model:entity"
     const val common = ":common"
 
-    const val repoList = ":features:repolist"
+    const val featureList = ":feature_list"
     const val profile = ":features:profile"
 }
 
